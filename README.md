@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-sminsorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@umd/browser.js' )
+sminsorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var sminsorted = require( 'path/to/vendor/umd/stats-base-ndarray-sminsorted/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -122,7 +122,7 @@ The function has the following parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

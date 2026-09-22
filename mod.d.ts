@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,28 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { float32ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the minimum value of a sorted one-dimensional single-precision floating-point ndarray.
+* Computes the minimum value of a sorted one-dimensional single-precision floating-point ndarray.
 *
-* @module @stdlib/stats-base-ndarray-sminsorted
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns minimum value
 *
 * @example
 * var Float32Vector = require( '@stdlib/ndarray-vector-float32' );
-* var sminsorted = require( '@stdlib/stats-base-ndarray-sminsorted' );
 *
 * var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
 *
 * var v = sminsorted( [ x ] );
 * // returns 1.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function sminsorted( arrays: [ float32ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = sminsorted;
